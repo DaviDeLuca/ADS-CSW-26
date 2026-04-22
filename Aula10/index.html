@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h2>Cadastro de Preferencias</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <table border="1" cellpadding="6" cellspacing="0">
+
+            <tr>
+                <td>Nome completo:</td>
+                <td><input type="text" placeholder="Digite seu nome completo"></td>
+            </tr>
+
+            <tr>
+                <td>E-mail principal:</td>
+                <td><input type="email"></td>
+            </tr>
+
+            <tr>
+                <td>E-mail alternativo:</td>
+                <td><input type="email" placeholder="Digite seu outro email"></td>
+            </tr>
+
+            <tr>
+                <td>Codigo de acesso:</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Faixa etaria:</td>
+                <td><input type="number" style="width:60px;"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    Deixe uma observacao:<br><br>
+                    <textarea rows="6" cols="60"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Areas de interesse:<br>
+                    <input type="checkbox"> Tecnologia<br>
+                    <input type="checkbox"> Design<br>
+                    <input type="checkbox"> Marketing
+                </td>
+
+                <td>
+                    Preferencia de passeio:<br>
+                    <input type="radio" name="viagem"> Praia<br>
+                    <input type="radio" name="viagem"> Campo<br>
+                    <input type="radio" name="viagem"> Cidade<br>
+                    <input type="radio" name="viagem"> Montanha
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Esporte preferido:<br>
+                    <select size="4">
+                <option>Futebol</option>
+                <option>Natacao</option>
+                <option>Corrida</option>
+                <option>Ciclismo</option>
+            </select>
+                </td>
+
+                <td>
+                    Hobbies favoritos:<br>
+                    <select>
+                <option>Leitura</option>
+                <option>Musica</option>
+                <option>Viagem</option>
+                <option>Fotografia</option>
+            </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Escolha uma cor favorita:<br>
+                    <input type="color">
+                </td>
+
+                <td>
+                    Selecione um arquivo pessoal:<br>
+                    <input type="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    Data e hora de envio:
+                    <input type="datetime-local">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:left;">
+                    <button type="submit">Confirmar</button>
+                    <button type="reset">Apagar</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
